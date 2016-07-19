@@ -15,8 +15,14 @@ body {
 .wrapper {
   outline: 1px dotted #000;
   /*outline*/
-  max-width: 1600px;
+  width: 1600px;
   margin: 0 auto;
+}
+header {
+  padding-top: 90px;
+  background: #99e1e8 url("../img/header-img.jpg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
 }
 .header__center {
   outline: 1px dotted #000000;
@@ -40,14 +46,12 @@ body {
   display: block;
   width: 100%;
   height: auto;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  text-align: center;
   text-decoration: none;
-  font-weight: bold;
-  font-size: 60px;
-  color: #fff;
-  background-color: #000;
+  font-size: 0;
+}
+.nav__logo a img {
+  width: 80px;
+  height: 80px;
 }
 .nav__list {
   outline: 1px dotted #008040;
