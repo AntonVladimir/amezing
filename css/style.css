@@ -2208,6 +2208,48 @@
   font-weight: 800;
   color: #000;
 }
+.content__text {
+  width: 1600px;
+  height: auto;
+  display: block;
+}
+.img__selfi {
+  display: inline-block;
+  width: 800px;
+  height: auto;
+}
+.img__selfi img {
+  width: 800px;
+  height: 497px;
+}
+.img__text {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  padding-top: 100px;
+  vertical-align: top;
+}
+.img__text h3 {
+  display: block;
+  width: 500px;
+  height: auto;
+  margin: 0;
+  margin-left: 53px;
+  margin-bottom: 35px;
+  font-size: 2.4em;
+  font-weight: bold;
+  color: #666;
+}
+.img__text p {
+  display: block;
+  width: 500px;
+  height: 255px;
+  margin-left: 53px;
+  font-size: 36px;
+  font-weight: lighter;
+  line-height: 40px;
+  color: #666;
+}
 .clearfix:after {
   content: "";
   display: table;
