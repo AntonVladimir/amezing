@@ -2258,6 +2258,7 @@
 }
 .img__truck {
   display: inline-block;
+  vertical-align: top;
   font-size: 0;
   width: 400px;
   height: 510px;
@@ -2265,6 +2266,7 @@
 }
 .img__snow {
   display: inline-block;
+  vertical-align: top;
   font-size: 0;
   width: 400px;
   height: 510px;
@@ -2273,6 +2275,7 @@
 }
 .img__fud {
   display: inline-block;
+  vertical-align: top;
   font-size: 0;
   width: 400px;
   height: 510px;
@@ -2281,6 +2284,7 @@
 }
 .img__montain {
   display: inline-block;
+  vertical-align: top;
   font-size: 0;
   width: 400px;
   height: 510px;
