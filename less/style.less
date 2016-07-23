@@ -118,7 +118,7 @@ header{
 	margin: 0;
 	padding: 0;
 	width: 500px;
-	height: 50px; 
+	// height: 50px; 
 	text-align: right;
 	position: absolute;
 	top: 0;
@@ -152,9 +152,16 @@ header{
 }
 
 .nav__menu:hover .menu__burger{
-	display: none;
+	// display: none;
+
+	visibility: hidden;
+	position: relative;
 }
 
 .nav__menu:hover .nav__list{
 	display: block;
+
+	position: absolute;
+	top: 0;
+	right: 0;
 }
