@@ -78,21 +78,21 @@ header{
 // -----------------------
 
 .nav__menu{
-	outline: 1px dotted #000;
 	width: @menu-width;
 	height: auto;
-	cursor: pointer;
 
 	float: right;
 	position: relative;
 }
 
 .menu__burger{
-	outline: @outline-grean;
+	display: block;
 	width: @menu-width;
 	height: auto;
 	padding-top: 32px;
+	text-align: center;
 	position: relative;
+	cursor: pointer;
 
 	:before{
 		content: @fa-var-reorder;
@@ -117,8 +117,8 @@ header{
 	list-style: none;
 	margin: 0;
 	padding: 0;
-	width: 870px;
-	height: auto;
+	width: 500px;
+	height: 50px; 
 	text-align: right;
 	position: absolute;
 	top: 0;
@@ -129,6 +129,7 @@ header{
 		display: inline-block;
 
 		a{
+			outline: @outline-read;
 			text-decoration: none;
 			display: block;
 			padding: 0 10px;
