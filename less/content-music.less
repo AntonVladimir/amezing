@@ -1,0 +1,78 @@
+.content__music{
+	outline: @outline-read;
+	width: 100%;
+	height: auto;
+	background-color: @background-music;
+}
+
+// ==============================
+
+.music__box{
+	width: @width400 * 3;
+	min-height: 900px;
+	margin-left: @width400;
+	background-image: url("../img/music-img-background.jpg");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-size:  @width400 * 3  @height900;
+}
+
+.music__text{
+	width: @width-music-box;
+	padding-left: @left53;
+	padding-top: @padding-top140;
+	padding-bottom: 95px;
+	background-color: @music-box-background;
+
+	.music__text_h3{
+		outline: @outline-read;
+		margin: 0;
+		margin-bottom: @margin35;
+		display: block;
+		width: @width260;
+		height: auto;
+		font-size: @size24em;
+		font-weight: bold;
+		color: @color-music-grean;
+		text-transform: uppercase;
+
+		span{
+			display: block;
+			font-size: @size18em/@size24em;
+			font-weight: lighter;
+			line-height: 1.7em;
+			color: @color-music-grean;
+		}
+	}
+
+
+	.music__text_p{
+		outline: @outline-read;
+		display: block;
+		margin: 0;
+		margin-bottom: @margin45;
+		width: @width260;
+		height: auto;
+		font-size: @size14em;
+		font-weight: normal;
+		line-height: @size18em;
+		color: @color-a;
+	}
+
+	.music__text_a{
+		display: inline-block;
+		padding: 16px;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-size: @size18em;
+		font-weight: bold;
+		color: @color-music-grean;
+		border: 2px solid @color-music-grean;
+		border-radius: 26px;
+		cursor: pointer;
+
+		&:hover{
+			color: @color-a;
+		}
+	}
+}
