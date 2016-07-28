@@ -1,0 +1,47 @@
+.footer__h4{
+	display: block;
+	width: 145px;
+	height: auto;
+	margin: 0;
+	font-size: @size18em;
+	font-weight: bold;
+	line-height: 1.16em;
+	text-transform: uppercase;
+	color: @color-a;
+}
+
+.footer__p{
+	display: block;
+	height: auto;
+	margin: 0;
+	font-size: @size14em;
+	font-weight: normal;
+	line-height: 1.5em;
+	color: @footer-grey;
+}
+
+.list__a{
+	display: block;
+	width: 100px;
+	padding-left: 30px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: @size14em;
+	font-weight: bold;
+	color: @footer-grey;
+	position: relative;
+
+	
+	&:hover{
+		color: #777777;
+	}
+
+	&:before{
+			display: block;
+			width: 15px;
+			height: auto;
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+}
